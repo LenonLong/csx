@@ -5,7 +5,7 @@ and perform the callback on each element. Each return value from the callback wi
 The value associated with each key will be an array consisting of all the elements that resulted in that return value when passed into the callback.
 */
 // ADD CODE HERE
-const groupBy = (arr, callback) => {
+ const groupBy = (arr, callback) => {
     const result = {}; // Initialize an empty object to store the grouped elements
     
     // Iterate through each element of the input array
